@@ -19,15 +19,15 @@ summary HTML file.
 \tabular{ll}{
 Package: \tab oposSOM\cr
 Type: \tab Package\cr
-Version: \tab 0.99.4\cr
-Date: \tab 2014-17-06\cr
+Version: \tab 1.1.1\cr
+Date: \tab 2015-05-01\cr
 License: \tab GPL (>= 2)\cr
 }
 }
 \author{
-Author: Henry Wirth <wirth@izbi.uni-leipzig.de>
+Author: Henry Wirth <wirth@izbi.uni-leipzig.de> and Martin Kalcher <mkalcher@porkbox.net>
 
-Maintainer: Martin Kalcher <mkalcher@porkbox.net>
+Maintainer: Henry Wirth <wirth@izbi.uni-leipzig.de>
 }
 \references{
 Wirth, Loeffler, v.Bergen, Binder: Expression cartography of human tissues %

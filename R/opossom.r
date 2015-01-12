@@ -16,12 +16,13 @@ opossom.new <- function(preferences=NULL)
   env$gene.positions.list <- NULL
   env$gene.positions.table <- NULL
   env$gene.coordinates <- NULL
-  env$group.bootstrap.score <- NULL
+  env$group.silhouette.coef <- NULL
   env$group.colors <- NULL
   env$group.labels <- NULL
   env$group.metadata <- NULL
   env$gs.def.list <- NULL
   env$gs.def.list.categories <- NULL
+  env$samples.GSZ.scores <- NULL
   env$spot.list.correlation <- NULL
   env$spot.list.group.overexpression <- NULL
   env$spot.list.kmeans <- NULL
@@ -99,7 +100,7 @@ opossom.new <- function(preferences=NULL)
 opossom.run <- function(env)
 {
   env$preferences$system.info <- Sys.info()
-  env$preferences$started <- format(Sys.time(), "%a %b %d %X")
+  env$preferences$started <- format(Sys.time(), "%a %d %b %Y %X")
 
   # Output some info
   util.info("Started:", env$preferences$started)
